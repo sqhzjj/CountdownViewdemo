@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="AuditProgressView">
+        <!-- 当前步骤是否完成-->
+        <attr name="apv_isCurrentComplete" format="boolean"/>
+
+        <!-- 下一个步骤是否完成-->
+        <attr name="apv_isNextComplete" format="boolean"/>
+
+        <!-- 是否是第一个步骤-->
+        <attr name="apv_isFirstStep" format="boolean"/>
+
+        <!-- 是否是最后一个步骤-->
+        <attr name="apv_isLastStep" format="boolean"/>
+
+        <!-- 一共几个步骤-->
+        <attr name="apv_stepCount" format="integer"/>
+
+        <!-- 步骤提示-->
+        <attr name="apv_text" format="string|reference"/>
+    </declare-styleable>
+    
+</resources>
